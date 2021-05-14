@@ -60,8 +60,6 @@ public class ExtFlightDelaysDAO {
 			}
 
 			conn.close();
-		
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.println("Errore connessione al database");
@@ -120,7 +118,6 @@ public class ExtFlightDelaysDAO {
 				
 				Airport origine= idMap.get(rs.getInt("id1"));
 				Airport dest= idMap.get(rs.getInt("id2"));
-				
 				if(origine!=null && dest!=null) {
 				
 			//QUI METTO TRA "" I NOMI DI COME HO RINOMINATO LE VARIABILI SU HEIDI
@@ -139,16 +136,7 @@ public class ExtFlightDelaysDAO {
 		throw new RuntimeException("Error Connection Database");
 	}
 		
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }

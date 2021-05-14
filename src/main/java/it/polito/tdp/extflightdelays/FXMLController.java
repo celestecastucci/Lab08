@@ -59,9 +59,6 @@ public class FXMLController {
     		return;
     	}
     	
-    
-    	
-    	
     	this.model.creaGrafo(inserisci);
     	
     	txtResult.appendText("GRAFO CREATO!"+"\n");
